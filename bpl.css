@@ -1,0 +1,666 @@
+html{
+    overflow-x: hidden;
+    transition: all 300ms ease;
+}
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    word-spacing: 2px;
+}
+
+                                                        /* section1 */
+
+.bhopal {
+    background: url("bhopalbackground.jpg") no-repeat fixed center;
+    background-size: cover;
+    width: 100vw;
+    height: 400px;
+    z-index: -1;
+    color: white;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.795);
+    background-size: cover;
+    min-height: 100%;
+}
+
+.bhopal h1{
+    text-align: center;
+    padding: 100px 0;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-size: 50px;
+    transition: all 200ms ease;
+    animation: colorchange 4s ease-in-out infinite;
+}
+
+@keyframes colorchange {
+    0%   {color: #F1BE78;}
+    12%  {color: #e8f05d;}
+    25%  {color: #ff5959;}
+    33%  {color: #89C29A;}
+    50%  {color: #00ffc3;}
+    62%  {color: #00e1ff;}
+    75%  {color: #b8b8b8;}
+    82%  {color: #ffaa00;}
+    100% {color: #DAD2CA;}
+  }
+
+.bhopal sub{
+    font-size: 15px;
+    letter-spacing: 0;
+}
+
+.bhopal p{
+    margin: 0 10vw;
+    text-align: justify;
+}
+
+
+                                    /* section2 */
+
+
+.historical-places h1{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.historical-places li{
+    text-align: center;
+    list-style: none;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.historical {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.historical div{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(189, 189, 189);;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.historical p{
+    text-align: justify;
+}
+
+.monument {
+    flex: 1;
+    overflow: hidden;
+}
+
+#monument-img{
+    display: block;
+    margin: 0 auto;
+    width: 28vw;
+    height: 43vh;
+    margin-bottom: 10px;
+}
+
+
+
+#sanchi {
+    margin-right: 15px;
+    margin-left: 25px;
+}
+
+#bhojpur {
+    margin-right: 15px;
+}
+
+#udayagiri {
+    margin-right: 15px;
+}
+
+
+                                    /* section3 */
+
+
+.lakes {
+        background: url("lakebackground.jpg") no-repeat fixed center;
+        background-size: cover;
+        width: 100vw;
+        height: auto;
+        z-index: -1;
+        color: white;
+}
+
+.lakes h1{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.lakes-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.lake li{
+    text-align: center;
+    list-style: none;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.lakes-container div{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(189, 189, 189);;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.lakes-container p{
+    text-align: justify;
+}
+
+
+.lake {
+    flex: 1;
+    overflow: hidden;
+}
+
+#lake-img{
+    display: block;
+    margin: 0 auto;
+    width: 28vw;
+    height: 43vh;
+    margin-bottom: 10px;
+}
+
+#upperlake {
+    margin-right: 15px;
+    margin-left: 25px;
+}
+
+#lowerlake {
+    margin-right: 15px;
+}
+
+#shahpura {
+    margin-right: 15px;
+}
+
+                                                /* section4 */
+
+.hindu h1{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.hindu-religion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.hindu-temples li{
+    text-align: center;
+    list-style: none;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.hindu-religion div{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(189, 189, 189);;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.hindu-religion p{
+    text-align: justify;
+}
+
+
+.hindu-temples {
+    flex: 1;
+    overflow: hidden;
+}
+
+#hindu-temple-img{
+    display: block;
+    margin: 0 auto;
+    width: 28vw;
+    height: 43vh;
+    margin-bottom: 10px;
+}
+                                
+#gufamandir {
+    margin-right: 15px;
+    margin-left: 25px;
+}
+
+#manuabhankitekri {
+    margin-right: 15px;
+}
+
+#birlamandir {
+    margin-right: 15px;
+}
+
+
+
+
+                                /* footer */
+
+
+
+
+.contact-footer {
+    /* margin: 100px 5vw;
+    padding: 100px 40px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border-radius: 83px; */
+    background: #25262b;
+    /*border-radius: 40px;
+    box-shadow:  9px 9px 42px #16171a,
+                -9px -9px 42px #151516; */
+               
+    
+}
+
+.contact-footer .contact-footer-img {
+    width:30vw;
+    height: auto;
+    display: flex;
+    /* flex-direction: column;
+    align-items: center; */
+    justify-content: center;
+
+    position: relative;
+
+
+}
+
+/* 
+.contact-footer .contact-footer-img h2{
+    margin-top: 10px;
+    color: #dfab51;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+        font-size: 30px;
+        font-weight: 100;
+        text-transform: none;
+        font-style: normal;
+        text-decoration: none;
+        line-height: 1em;
+        letter-spacing: 0px;
+} */
+
+
+#img-image{
+    margin: 20px 0;
+    width: 130px;
+    height: 150px;
+    border-radius: 70px;
+    border: 1px solid #25262b;
+
+    transition: .5s ease;
+
+    object-fit: cover;
+    opacity: 0.3;
+    
+}
+
+
+                                /* Hover effect */
+
+
+
+footer {
+    background-color: rgb(22, 21, 21);
+    text-align: center;
+    color: white;
+}
+
+footer p{
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+footer .footer-name{
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    color: rgb(253, 253, 121);
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+
+
+
+
+
+
+@media screen and (max-width:560px) {
+
+    footer p{
+        margin: 0;
+        padding: 10px 0 0 0;
+        font-size: 14px;
+    }
+    
+    footer .footer-name{
+        font-size: 14px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        padding-bottom: 10px;
+        font-weight: 70;
+    } 
+
+}
+
+                                /* MEDIA QUERIES BPL */
+
+@media screen and (max-width:900px) {
+    *,
+    body {
+        font-size: 16px;
+    }
+
+    .bhopal h1{
+        letter-spacing: 3px;
+
+    }
+
+    #lake-img{
+        width: 100%;
+        height: 150px;
+    }
+
+    #hindu-temple-img{
+        width: 100%;
+        height: 150px;
+    }
+    
+    #monument-img{
+        width: 100%;
+        height: 150px;        
+    }
+}
+
+@media screen and (max-width:750px) {
+
+    *,
+    body {
+        font-size: 14px;
+    }
+
+    #lake-img{
+        height: 130px;
+    }
+
+    #hindu-temple-img{
+        height: 130px;
+    }
+    
+    #monument-img{
+        height: 130px;        
+    }
+
+    .hindu-religion div{
+        padding: 7px;
+    }
+
+    .lakes-container div{
+        padding: 7px;
+    }
+
+    .historical div{
+        padding: 7px;
+    }
+    
+}
+
+
+@media screen and (max-width:600px) {
+
+    .hindu-religion {
+        flex-direction: column;
+    }
+
+    #gufamandir {
+        margin-right: 20vw;
+        margin-left: 20vw;
+    }
+    
+    #manuabhankitekri {
+        margin-right: 20vw;
+        margin-left: 20vw;
+    }
+    
+    #birlamandir {
+        margin-right: 20vw;
+        margin-left: 20vw;
+    }
+
+    .lakes-container {
+        flex-direction: column;
+    }
+
+    #upperlake {
+        margin-right: 20vw;
+        margin-left: 20vw;
+    }
+    
+    #lowerlake {
+        margin-right: 20vw;
+        margin-left: 20vw;
+    }
+    
+    #shahpura {
+        margin-right: 20vw;
+        margin-left: 20vw;
+    }
+
+    .historical {
+        flex-direction: column;
+    }
+
+    #sanchi {
+        margin-right: 20vw;
+        margin-left: 20vw;
+    }
+    
+    #bhojpur {
+        margin-right: 20vw;
+        margin-left: 20vw;
+    }
+    
+    #udayagiri {
+        margin-right: 20vw;
+        margin-left: 20vw;
+    }
+
+}
+
+
+@media screen and (max-width:400px) {
+
+    .bhopal h1{
+        font-size: 40px;
+    }
+
+    .bhopal sub{
+        font-size: 10px;
+    }
+
+    #gufamandir {
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
+    
+    #manuabhankitekri {
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
+    
+    #birlamandir {
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
+
+
+
+
+
+    #upperlake {
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
+    
+    #lowerlake {
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
+    
+    #shahpura {
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
+
+
+
+
+    #sanchi {
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
+    
+    #bhojpur {
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
+    
+    #udayagiri {
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
+
+}
+
+
+@media screen and (max-width:300px) {
+
+    .bhopal {
+        height: 300px;
+    }
+
+    .bhopal h1{
+        font-size: 10vw;
+        padding: 50px 0;
+    }
+
+    .bhopal sub{
+        font-size: 10px;
+    }
+
+    .bhopal p{
+        margin: 0 5vw;
+    }
+
+    #gufamandir {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    #manuabhankitekri {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    #birlamandir {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+
+
+
+    #upperlake {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    #lowerlake {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    #shahpura {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+
+
+    #sanchi {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    #bhojpur {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    #udayagiri {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width:200px) {
+
+    *,body{
+        font-size: 12px;
+    }
+
+    #lake-img{
+        height: 100px;
+    }
+
+    #hindu-temple-img{
+        height: 100px;
+    }
+    
+    #monument-img{
+        height: 100px;        
+    }
+    
+}
